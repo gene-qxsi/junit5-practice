@@ -5,6 +5,7 @@ import lombok.experimental.UtilityClass;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 @UtilityClass
 public class ConnectionManager {
